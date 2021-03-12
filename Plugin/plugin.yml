@@ -1,0 +1,5 @@
+name: DeathReport-HiroTeam
+author: RomainSav
+version: 1.0.0
+api: 3.0.0
+main: RomainSav\HiroTeam\DeathReport

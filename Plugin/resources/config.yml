@@ -1,0 +1,32 @@
+#██╗░░██╗██╗██████╗░░█████╗░████████╗███████╗░█████╗░███╗░░░███╗
+#██║░░██║██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗████╗░████║
+#███████║██║██████╔╝██║░░██║░░░██║░░░█████╗░░███████║██╔████╔██║
+#██╔══██║██║██╔══██╗██║░░██║░░░██║░░░██╔══╝░░██╔══██║██║╚██╔╝██║
+#██║░░██║██║██║░░██║╚█████╔╝░░░██║░░░███████╗██║░░██║██║░╚═╝░██║
+#╚═╝░░╚═╝╚═╝╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝
+ui_time: '600' # seconds
+
+hotbar_cooldown: 'Temps restant: {MIN} minute/s et {SEC} seconde/s' # {HOURS} {MIN} {SEC}
+
+forms:
+  main:
+    form_title: 'DeathReport'
+    form_content: 'Chose a report type'
+    kills_button: 'Kills abusifs'
+    map_bug_button: 'Bug de map'
+    close_button: 'Fermer'
+  kills:
+    form_title: 'Kills abusifs'
+    form_content: 'Chose a report type'
+  admin:
+    form_title: 'Admin interface'
+    form_content: 'The list of all reports'
+    back: 'Retour'
+
+webhook_url: 'YOUR_WEBHOOK_URL'
+
+mysql:
+  host: 'localhost'
+  username: 'root'
+  password: 'root'
+  dbname: 'root'
